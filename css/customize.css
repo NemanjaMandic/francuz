@@ -1,0 +1,28 @@
+@font-face{
+ font-family:jane;
+ src:url(../fonts/JaneAusten.ttf);
+}
+.custom{
+   
+    height: auto;
+    padding:44px 195px 22px;
+    background-color: #273349;
+
+}
+ .navbar-brand{
+ font-family:jane;
+ text-color: fffffe;
+ font-size:40px;
+    display: block;
+}
+
+.navbar-header h2{
+    color:#969aa1;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-size:18px;
+    padding-left: 295px;
+}
+.bg{
+    
+}
