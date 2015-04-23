@@ -24,5 +24,64 @@
     padding-left: 295px;
 }
 .bg{
+    background:url(../images/content_bg.jpg);
+    background-repeat:repeat;
+    background-size:cover;
+    padding: 150px 15px 60px;
+    height:550px;
     
+}
+.editions{
+     background-color: #273349;
+     padding: 50px;
+    
+}
+.editions h2, h3{
+     font-family: 'Lato', sans-serif;
+    font-weight:bold;
+    color: #ffffff;
+}
+.editions p{
+    color: #fff;
+}
+.ghost{
+    display: inline-block;
+    width: 136px;
+    height:45px;
+    padding: 12px;
+    color: #fff;
+    border: 1px solid #fff;
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+    transition: background-color 0.2s ease-out,
+                border-color 0.2s ease-out;
+    font-family: 'Lato', sans-serif;
+
+}
+.ghost:hover,
+.ghost:active{
+  background-color: #fff; /* fallback */
+  background-color: rgba(255, 255, 255, 0.4);
+  border-color: #fff; /* fallback */
+  border-color: rgba(255, 255, 255, 0.4);
+  transition: background-color 0.3s ease-in,
+              border-color 0.3s ease-in;
+}
+.color h1, p{
+  color:#243047;
+}
+
+#naslov{
+  font-size:50px;
+}
+#podnaslov{
+  font-size:28px;
+    padding-bottom: 30px;
+}
+.right{
+  padding-left:55px;
+}
+.content{
+ padding-top: 163px;
 }
