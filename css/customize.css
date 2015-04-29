@@ -2,6 +2,10 @@
  font-family:jane;
  src:url(../fonts/JaneAusten.ttf);
 }
+@font-face{
+ font-family:myrad;
+ src:url(../fonts/MYRADPRO-BOLD.OTF);
+}
 .custom{
    
     height: auto;
@@ -84,4 +88,128 @@
 }
 .content{
  padding-top: 163px;
+}
+.kosovo p{
+ color:#243047;
+}
+.trouver{
+ padding: 50px 0 60px 0;
+ background-color:#fe4e4e;
+}
+.trouver h1, p{
+  color:#ffffff;
+}
+.trouver h1{
+  
+  text-align:center;
+  font-size:50px;
+}
+.libraries{
+  float:right;
+  text-align:right;
+}
+.libraries h2{
+  color:#932d2d;
+ 
+}
+.envelope{
+  padding-left:25px
+}
+.particuliers{
+  padding-left:30px;
+}
+.particuliers h2{
+  color:#932d2d;
+}
+.commandes{
+  padding-top:50px;
+  background-color:#e44646;
+}
+.commandes h2{
+  text-align:center;
+  font-size:28px;
+  color:#fff; 
+}
+.commandes hr{
+  border-color:#ce3e3e;
+}
+.commandes p{
+  text-align:center;
+}
+.media-body p{
+  text-align:left;
+}
+.col-md-6 h2{
+  text-align:left;
+}
+/*
+.paypal{
+ padding-top: 66px;
+}
+*/
+.ikone{
+  float:right;
+  padding-left:250px;
+  position: relative;
+    left: 20px;
+    bottom: 60px;
+
+}
+.ikone p{
+ 
+ padding-left:130px
+  
+}
+.tekst{
+  color:#fff;
+  padding-left:10px;
+}
+.notre{
+  background:url(../images/notre.jpg) no-repeat;
+}
+.contact{
+    background-color: #243047;
+}
+.contact h2{
+ color:#c84857;
+ font-size: 18px;
+ float: right;
+  padding-right: 110px;
+}
+
+.info{
+  padding: 50px 0 30px 0;
+}
+.circle{
+   width: 70px;
+	float: left;
+	margin-left:15px;
+    height: 70px;
+	text-align:center;
+	background: #3a455a;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+
+}
+.circle p{
+	padding:17px;
+	font-size:25px;
+	font-weight:bold;
+    font-family: myrad;
+}
+.linija{
+    border-color: #3a455a;
+}
+.con{
+ padding-right: 178px;
+}
+.copy{
+	text-align:center;
+	padding:20px 0;
+	
+
+}
+.copy p{
+  color:#3a455a;   
 }
