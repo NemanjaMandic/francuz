@@ -9,7 +9,8 @@
 .custom{
    
     height: auto;
-    padding:44px 195px 22px;
+    padding:12px 195px 1px 150px;
+    border: 0;
     background-color: #273349;
 
 }
@@ -28,12 +29,16 @@
     padding-left: 295px;
 }
 .bg{
-    background:url(../images/content_bg.jpg);
-    background-repeat:repeat;
+    background:url(../images/top-image.jpg) no-repeat;
+    background-attachment: fixed;
     background-size:cover;
     padding: 150px 15px 60px;
     height:550px;
     
+}
+.tab_navigacija{
+	width:140px;
+	height: 240px;
 }
 .editions{
      background-color: #273349;
@@ -91,6 +96,9 @@
 }
 .kosovo p{
  color:#243047;
+}
+.kosovo img {
+  padding-bottom:  15px;   
 }
 .trouver{
  padding: 50px 0 60px 0;
