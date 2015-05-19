@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta charset="utf-8">
+
+  <title>Parallax.js | Interactive Example</title>
+
+  <!-- Behavioral Meta Data -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="test.css">
+    
+
+</head>
+    <script type="text/javascript" src="js/jquery-v1.8.2.js"></script>
+<script type="text/javascript" src="js/jquery-events-frame.js"></script>
+<script type="text/javascript" src="js/jparallax.js"></script>
+
+    <script>
+     $(function() {
+	   if(jQuery('#parallax').length != 0){
+		if(jQuery(window).width() > 980){
+			
+			//apply parallax effect
+			jQuery('#parallax .parallax-layer').parallax(
+				{mouseport: jQuery('#parallax')}
+			);
+		
+			$(window).load(function(){
+				jQuery('#parallax .parallax-layer').css('display','block');		
+				
+			});
+		}
+	}
+ }); 
+</script>
+
+<body>
+
+ <div class="klasa">
+     
+     <div class="parallax">
+       <div id="scene" class="parallax-layer parallax5">
+      <img src="images/hand-top.png">
+          
+     </div>
+     <ul id="scene1" class="scene1">
+     <li class="left"><img src="images/hand-left.png"</li>
+              
+     </ul>
+     <ul id="scene2" class="scene2">
+      <li class="right"><img src="images/hand-right.png"</li>
+     </ul>
+     </div>
+    </div>
+
+  <!-- Scripts -->
+  <script src="deploy/parallax.js"></script>
+  <script type="text/javascript">
+var get_height = window.innerHeight; 
+var get_height1 =  get_height - 25;
+var get_container = document.getElementById('container');
+get_container.style.height =  get_height1 + 'px';
+</script>
+
+
+</body>
+</html>

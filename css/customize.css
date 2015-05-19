@@ -80,6 +80,9 @@
 .color h1, p{
   color:#243047;
 }
+.clr{
+    clear: both;
+}
 
 #naslov{
   font-size:50px;
