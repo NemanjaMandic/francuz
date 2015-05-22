@@ -9,8 +9,8 @@
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/customize.css">
-       <link rel="stylesheet" type="text/css" href="style.css" media="all" />
+    <link rel="stylesheet" href="css/customize.css" media="all">
+       <link rel="stylesheet" type="text/css" href="style.css"  />
     <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
       
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -21,9 +21,10 @@
     <![endif]-->
       
   </head>
-    <script src="js/jquery-v1.8.2.js"></script>
-<script src="js/jquery-events-frame.js"></script>
-<script src="js/jparallax.js"></script>
+   
+    <script type="text/javascript" src="js/jquery-v1.8.2.js"></script>
+<script type="text/javascript" src="js/jquery-events-frame.js"></script>
+<script type="text/javascript" src="js/jparallax.js"></script>
 <script>
      $(function() {
 	   if(jQuery('#parallax').length != 0){
@@ -42,6 +43,7 @@
 	}
  }); 
 </script>
+
   <body>
     <div class="container">
      <div class="row">
@@ -73,7 +75,31 @@
         <div class="row">
          <div class="col-md-12">
            
-      
+            <div id="parallax" class="parallax-viewport">
+
+                <div class="parallax-layer parallax1"> 
+                 <img src="images/hand-top.png" alt="">
+                </div>
+
+                <div class="parallax-layer parallax2">
+                   <img src="images/hand-left.png" alt="">
+                </div>
+
+                <div class="parallax-layer parallax3">
+                   <img src="images/hand-right.png" alt="">
+                </div>
+
+                <div class="parallax-layer parallax4">
+                  <img src="images/balloons-4.png" alt="">
+                </div>
+
+                <div class="parallax-layer parallax5">
+                  <img src="images/balloons-5.png" alt="">
+                </div>
+
+                </div></div>
+                <div class="clr"></div>
+
          </div><!--col-md-12-->
         </div><!--row-->
        </div><!--END #bg-->
@@ -432,7 +458,13 @@
            </div><!--container-->
            
           </div><!--contact-->
-         
+         <script type="text/javascript">
+var get_height = window.innerHeight; 
+var get_height1 =  get_height - 25;
+var get_container = document.getElementById('container');
+get_container.style.height =  get_height1 + 'px';
+</script>
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->

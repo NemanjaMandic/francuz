@@ -15,9 +15,9 @@
     
 
 </head>
-    <script type="text/javascript" src="js/jquery-v1.8.2.js"></script>
-<script type="text/javascript" src="js/jquery-events-frame.js"></script>
-<script type="text/javascript" src="js/jparallax.js"></script>
+    <script src="js/jquery-v1.8.2.js"></script>
+<script src="js/jquery-events-frame.js"></script>
+<script src="js/jparallax.js"></script>
 
     <script>
      $(function() {
@@ -40,21 +40,33 @@
 
 <body>
 
- <div class="klasa">
+ 
      
      <div class="parallax">
-       <div id="scene" class="parallax-layer parallax5">
-      <img src="images/hand-top.png">
-          
-     </div>
-     <ul id="scene1" class="scene1">
-     <li class="left"><img src="images/hand-left.png"</li>
-              
-     </ul>
-     <ul id="scene2" class="scene2">
-      <li class="right"><img src="images/hand-right.png"</li>
-     </ul>
-     </div>
+      <div id="container">
+				<div class="clr"></div>
+			   
+<div id="parallax" class="parallax-viewport">
+
+<div class="parallax-layer parallax1"> 
+ <img src="images/hand-top.png" alt="">
+</div>
+
+<div class="parallax-layer parallax2">
+   <img src="images/hand-right.png" alt="">
+</div>
+
+<div class="parallax-layer parallax3">
+   <img src="images/hand-left.png" alt="">
+</div>
+
+
+
+
+
+</div></div>
+<div class="clr"></div>
+
     </div>
 
   <!-- Scripts -->

@@ -1,14 +1,15 @@
 .parallax-viewport {
 	position:relative;
 	overflow:hidden;
-	width:980px;
-	height:80%;
+	width:1300px;
+	height:550px;
 	margin:0px auto;
 	position:absolute;
 	text-align:center;
 }
 .parallax-layer {
 	position:absolute;
+    padding-top: 160px;
 	text-align:center;
 }
 .parallax1 {width: 950px; height: 573px; display: block; top: 74.5895%; margin-top: -427.398px; left: 24.6184%; margin-left: -233.874px;}
